@@ -31,7 +31,8 @@ export default function RootLayout({
         <body className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col`}>
           <header className="px-6 h-16 flex items-center justify-between border-b">
             <Link href="/" className="font-bold text-xl flex items-center gap-2">
-              ⚡ FlashMind AI
+              <img src="/logo.png" alt="FlashMind AI Logo" className="w-8 h-8 object-contain" />
+              FlashMind AI
             </Link>
             <nav className="flex items-center gap-4">
               <SignedOut>
